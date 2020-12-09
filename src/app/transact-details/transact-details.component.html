@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+
+<div class="info" *ngFor="let transact of TRANSACTION">
+    <div class="numerique">
+        <h1>INFO TRANSACTION </h1>
+        <h5>{{transact.montant}} FCFA</h5>
+        <h5>{{transact.date}}</h5>
+        <h6 *ngIf="transact.emmeteurId==id_user" >
+            STATUT : EMMETEUR
+        </h6>
+        <h6 *ngIf="transact.RecepteurId==id_user" >
+            STATUT : RECEPTEUR
+        </h6>
+    </div>
+    <div class="emmeteur" *ngIf="transact.emmeteurId!==id_user">
+        <h1>INFO EMETTEUR </h1>
+        <h5>{{transact.emmeteurId}}</h5>
+    </div>
+    <div class="recepteur" *ngIf="transact.RecepteurId!==id_user">
+        <h1>INFO RECEPTEUR </h1>
+        <h5>{{transact.RecepteurId}}</h5>
+    </div>
+</div>
+
+
+<app-footer></app-footer>

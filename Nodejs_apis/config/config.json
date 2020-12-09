@@ -1,0 +1,17 @@
+{
+  "local": {
+    "username": "root",
+    "password": null,
+    "database": "angular_money",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+    },
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "angular_money",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  }
+}

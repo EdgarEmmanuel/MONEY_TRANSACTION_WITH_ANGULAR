@@ -1,0 +1,17 @@
+.footer{
+    height:6vh;
+    width:100%;
+    padding-top:20px;
+    text-align:center;
+    object-fit:contain;
+    background:#323e3e
+}
+
+
+.footer small{
+    font-size:20px;
+    text-transform: uppercase;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}

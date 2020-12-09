@@ -1,0 +1,68 @@
+.login{
+    margin-left:430px;
+    margin-top:110px;
+    border:2px solid #ee843a;
+    width:30vw;
+    height:65vh;
+    padding:10px 10px;
+    background:white;
+    border-radius:10px;
+}
+
+.login .brand img{
+    width:clamp(20rem,10rem,10rem);
+    margin-left:40px;
+}
+
+
+.login .form{
+    margin-left:0px;
+    text-align:center;
+}
+
+.login form input[type="text"]{
+    width:220px;
+    border-radius:27px;
+    outline-width: 0;
+    border:1px solid black;
+    padding:10px 0px;
+    margin:0px 0px 10px 0px;
+}
+
+.login form input[type="text"]::placeholder{
+    font-weight:bold;
+    text-align:center;
+    font-size:10px;
+    color:rgb(34, 32, 32);
+}
+
+
+.login form input[type="password"]{
+    width:220px;
+    outline-width: 0;
+    border-radius:27px;
+    border:1px solid black;
+    padding:10px 0px;
+}
+
+.login form input[type="password"]::placeholder{
+    font-weight:bold;
+    text-align:center;
+    font-size:10px;
+    color:rgb(34, 32, 32);
+}
+
+
+.login form input[type="submit"]{
+    background:#ee843a;
+    margin-top:30px;
+    width:220px;
+    outline-width:0;
+    border:0;
+    padding:10px 0px;
+    text-transform: uppercase;
+    border-radius:10px;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+}

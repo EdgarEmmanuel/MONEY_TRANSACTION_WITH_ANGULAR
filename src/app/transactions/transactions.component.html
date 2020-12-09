@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+
+<div class="transaction">
+    <h1>TRANSACTIONS</h1>
+    <div *ngFor="let transaction of TRANSACTIONS">
+        <app-transaction [num]="transaction"></app-transaction>
+    </div>
+</div>
+
+<app-footer></app-footer>

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angumoney"
+    }
+  },
+  "defaultProject": "angumoney",
+  "cli": {
+    "analytics": "423c8cd8-7bc7-4527-8401-76881d743bce"
+  }
 }

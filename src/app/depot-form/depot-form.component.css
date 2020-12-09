@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+*{
+    font-family: 'Texturina', serif;
+}
+
+.form_depot{
+    margin-bottom:340px;
+    text-align:center;
+}
+
+.form_depot form input{
+    margin:10px 0px;
+    width:220px;
+    outline-width: 0;
+    padding:6px 0px;
+    border-radius:10px;
+    border:1px solid black;
+}
+
+.form_depot form input[type="submit"]{
+    background:#ee843a;
+    color:white;
+    font-weight:bold;
+    border:1px solid #ee843a;
+}
+

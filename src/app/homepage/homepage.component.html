@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+
+
+<div class="main">
+    <div class="left">
+        <div class="solde">
+            <h4>SOLDE</h4>
+            <h2>{{solde_account}} FCFA</h2>
+        </div>
+    </div>
+    <div class="right">
+        <h1>Transactions</h1>
+        <div *ngFor="let transaction of TRANSACTIONS">
+        <app-transaction [num]="transaction"></app-transaction>
+        </div>
+    </div>
+</div>
+
+
+<app-footer></app-footer>

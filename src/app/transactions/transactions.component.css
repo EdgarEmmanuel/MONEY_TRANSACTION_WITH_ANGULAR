@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+*{
+    font-family: 'Texturina', serif;
+}
+
+.transaction{
+    margin-bottom:310px;
+}
+
+
+.transaction h1{
+    color:#323e3e;
+    text-align: center;
+}

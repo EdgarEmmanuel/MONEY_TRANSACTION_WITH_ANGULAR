@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+*{
+    font-family: 'Texturina', serif;
+}
+
+*{
+    background:white;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+    margin:140px 0px 156px 0px;
+}
+
+.main .left{
+    flex-basis: 50%;
+    background:white;
+    text-align: center;
+}
+
+.main .right{
+    flex-basis: 50%;
+    background:white;
+    border-left:1px solid black;
+    text-align: center;
+}
+
+.main .right h1{
+    background:none;
+}
+
+.main .left .solde{
+    width:clamp(270px,270px,270px);
+    background: #ee843a;
+    margin:auto;
+    padding:10px 0px;
+    color:white;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+.main .left .solde h4,.main .left .solde h2{
+    background:none;
+}

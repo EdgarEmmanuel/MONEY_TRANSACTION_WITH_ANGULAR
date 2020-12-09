@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+
+<div class="form_depot">
+    <h1>FAIRE UN DEPOT YOBHOUDEAL</h1>
+    <form (ngSubmit)="sendDepot(value)" #value="ngForm">
+        <input type="text" placeholder="cni destinataire" name="cni" ngModel required/> <br/>
+        <input type="number" placeholder="montant" name="montant" ngModel required/> <br/>
+    
+        <input type="submit" value="Envoyer" [disabled]="value.invalid"/>
+    </form>
+    <div class="error_div">
+        {{message}}
+    </div>
+</div>
+
+
+<app-footer></app-footer>

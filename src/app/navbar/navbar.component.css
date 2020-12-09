@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+*{
+    font-family: 'Texturina', serif;
+}
+
+
+header{
+    display:flex;
+    align-items: center;
+    padding:0px 40px;
+    background:white;
+    height:13vh;
+    justify-content: space-between;
+}
+
+
+
+header .brand img{
+    width:clamp(8rem,8rem,8rem);
+}
+
+
+header .menu a{
+    border:2px solid  #ee843a;
+    font-weight:bold;
+    box-shadow: 5px 8px #adadad;
+    padding:10px 10px;
+    margin:0px 4px 0px 4px;
+    text-decoration: none;
+    border-radius:10px;
+    cursor:pointer;
+    color: #ee843a;
+    background:white;
+}
+
+header .menu a:hover{
+    background:#ee843a;
+    color:white;
+}

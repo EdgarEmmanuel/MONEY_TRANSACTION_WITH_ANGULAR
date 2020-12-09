@@ -1,0 +1,7 @@
+<div class="transaction">
+    <span></span>
+    <h4>  {{num.montant}} FCFA</h4>
+    <h4 *ngIf="num.RecepteurId==idUser">DEPOT</h4>
+    <h4 *ngIf="num.emmeteurId==idUser">RETRAIT</h4>
+    <a href="transfert/{{num.id}}"><i class="fa fa-eye" aria-hidden="true"></i></a>
+</div>

@@ -1,0 +1,29 @@
+
+.transaction{
+    width:270px;
+    display:flex;
+    margin-left:134px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.transaction h4{
+    color:#ee843a;
+}
+
+.transaction a{
+    cursor:pointer;
+    color:black;
+}
+
+.transaction a:hover{
+    color:#ee843a;
+}
+
+.transaction span{
+    width:23px;
+    border-radius:57px;
+    height:23px;
+    background:#ee843a;
+}
